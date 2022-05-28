@@ -67,3 +67,7 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.icon-button:hover {
+  filter: brightness(1.2);
+}
