@@ -3,7 +3,9 @@ import React from "react";
 function App() {
   return (
     <Navbar>
-      <NavItem />
+      <NavItem icon="😘" />
+      <NavItem icon="😘" />
+      <NavItem icon="😘" />
     </Navbar>
   );
 }
@@ -18,10 +20,11 @@ function Navbar(props) {
   );
 }
 
-function NavItem() {
+function NavItem(props) {
   return (
     <li className="nav-item">
       <a href="#" className="icon-button">
+        {props.icon}
       </a>
     </li>
   )
